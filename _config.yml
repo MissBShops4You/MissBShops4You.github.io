@@ -1,0 +1,9 @@
+# Site settings
+title: "Miss B Shops 4 You"
+email:
+description:
+baseurl: ""
+url: "http://missbshops4you.com"
+
+# Build settings
+markdown: kramdown
