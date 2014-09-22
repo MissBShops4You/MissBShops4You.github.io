@@ -1,0 +1,117 @@
+body {
+  background-image: url('../img/bg.jpg');
+  font-family: 'Actor', sans-serif;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+}
+.content-box, nav {
+  background-color: #E0CEAF;
+}
+header {
+  margin-bottom: 20px;
+}
+nav {
+  height: 80px;
+  margin-top: 80px;
+  font-size: 30px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+nav li {
+  float: left;
+  line-height: 80px;
+  padding: 0px 3%;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  float: left;
+}
+nav li:hover a,  nav li.active a {
+  color: white;
+}
+nav li:hover,  nav li.active {
+  background-color: #3E1552;
+}
+.title-holder {
+}
+.title {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 9vw;
+  margin-top: 0px;
+}
+.tagline {
+  color: #3E1552;
+  margin-top: 105px;
+  padding-left: 30px;
+}
+.tagline-2 {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: -25px;
+}
+.tagline, .title {
+  float: left;
+  display: inline;
+  margin-bottom: 10px;
+}
+.logo {
+  background: transparent url('../img/logo.svg') no-repeat;
+  float: left;
+  width: 100%;
+  height: 20vw;
+}
+.content-box {
+  padding: 25px;
+  font-size: 25px;
+}
+.bling img {
+  position: absolute;
+}
+.chain-1 {
+  top: 0px;
+  left: 0px;
+  width: 445px;
+}
+.chain-2 {
+  top: 0px;
+  right: 0px;
+  width: 245px;
+}
+.shoe {
+  top: 0px;
+  left: 15%;
+  width: 75px;
+}
+.hat {
+  top: 0px;
+  right: 350px;
+  width: 115px;
+}
+.bag {
+  top: 0px;
+  left: 50px;
+  width: 57px;
+}
+.bags {
+  top: 0px;
+  right: 46px;
+  width: 73px;
+}
+
+footer {
+  height: 350px;
+  background-color: transparent;
+  padding-top: 30px;
+}
+footer p {
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+}
